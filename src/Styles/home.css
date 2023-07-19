@@ -1,0 +1,116 @@
+header {
+    width: 100%;
+background: rgb(24, 24, 24);
+
+height: 0px;
+  }
+  
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    margin-right: 80px;
+
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  a {
+    color: rgb(223, 214, 214);
+    text-decoration: none;
+  }
+  .logo img{
+    margin-right: 200px;
+    align-items: end;
+  }
+  
+
+
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .content{
+    color: white;
+    margin-right: 560px;
+    margin-bottom: 20px;
+  }
+  h1{
+    font-size: 3.8rem;
+    margin-right: 400px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+line-height: 125.5%;
+
+  }
+  .image{
+    float: right;
+      }
+      .image img{
+        position: absolute;
+width: 461px;
+height: 563px;
+left: 639px;
+top: 172px;   
+margin-left: 200px; 
+      }
+
+      .content2 {
+        display: flex;
+        align-items: center;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 15px;
+        width: 60%;
+        margin-top: 40px;
+      }
+      
+      .icons {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-color: #007bff; /* Replace with the color you desire */
+        margin-right: 10px;
+        border-radius: 50%; /* To make the icon circular */
+      }
+      
+      span {
+        font-size: 16px;
+        margin-right: 10px;
+        color: #302e30;
+        font-weight: 300;
+      }
+      
+      .btn {
+        background-color: #007bff; /* Replace with the color you desire */
+        color: #fff;
+        border: none;
+        padding: 10px 25px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 150px;
+      }
+      

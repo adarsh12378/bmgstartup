@@ -1,0 +1,53 @@
+
+.brands-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; 
+    max-width: 100%; 
+    margin: 10px auto; 
+    height:40vh; 
+  }
+  
+ 
+  .brand-card {
+    display: flex;
+    align-items: center; 
+    width: 20%; 
+    padding: 20px;
+    margin: 30px;
+    background-color: white; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  .brand-card img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 5px;
+    margin-right: 20px; 
+  }
+  
+  
+  .brand-card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brand-card h1 {
+    font-size: 2.5rem; 
+    color: #333; 
+    font-weight: bold;
+    font-family: "popins";
+    margin: 0; 
+    margin-bottom: 10px; 
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  
+  .brand-card span {
+    font-size: 0.8rem; 
+    color: #666;  
+  }
+  
